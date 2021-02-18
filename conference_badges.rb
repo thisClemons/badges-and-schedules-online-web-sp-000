@@ -16,4 +16,5 @@ def assign_rooms(name_list)
   name_list.each do |name|
     assignments.push("Hello, #{name}! You'll be assigned to room #{assignments.size - 1}!")
   end
+  assignments
 end
